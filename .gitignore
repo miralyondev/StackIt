@@ -2,6 +2,15 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+git init
+vi .gitignore
+git add .
+git commit -m "Initial commit"
+git remote add origin <https://github.com/miralyondev/StackIt.git>
+git remote -v
+git pull origin master --allow-unrelated-histories
+git push origin master
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
